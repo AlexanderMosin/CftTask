@@ -1,0 +1,13 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"title": "Schema.json",
+  	"description": "Json Schema for api request",
+  	"type": "object",
+  	"properties": {
+  		"status": {"type": "string"},
+  		"totalResults": {"type": "integer", "minimum": 0},
+  		"articles": {"type": "array"},
+  		"code": {"type": "string"},
+  		"message": {"type": "string"}
+  	}	
+}
